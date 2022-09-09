@@ -1,0 +1,24 @@
+//Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo. 
+//A função deve retornar um se for positivo e zero se for negativo.
+
+#include <iostream>
+
+using namespace std;
+
+int positivo_negativo (int num){
+    if (num < 0){
+        cout << 0;
+    }else {
+        cout << 1;
+    }
+}
+
+int main()
+{
+    int num;
+
+    cout << "Digite um número inteiro >> ";
+    cin >> num;
+    positivo_negativo (num);
+    return 0;
+}
